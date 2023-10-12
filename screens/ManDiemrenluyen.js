@@ -96,6 +96,7 @@ const MyBarChart3 = () => {
             },
           ],
         }}
+        // width ...
         width={Dimensions.get('window').width - 16}
         height={220}
         yAxisLabel={''}
