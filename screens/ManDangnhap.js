@@ -46,7 +46,7 @@ import { useFocusEffect } from "@react-navigation/native";
         <View style={styles.container}>
             <View style={styles.header}>
                 <View style={styles.vldntk}>
-                    <Text>Vui lòng đăng nhập tài khoản</Text>    
+                    <Text>Vui lòng đăng nhập tài khoản: </Text>    
                 </View>
             </View>
             
