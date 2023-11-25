@@ -20,7 +20,7 @@ import { useFocusEffect } from "@react-navigation/native";
           .then((json) => setData(json))
           .catch((error) => console.error(error));
       }, []);
-
+      // kiểm tra login
       const checkLogin = (userName, password) => {
         const user = data.find((item) => item.username === userName && item.password === password);
         if (user) {
